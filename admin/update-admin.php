@@ -1,5 +1,4 @@
 <<?php include('partials/menu.php');?>
-
 <div class="main-content">
 <div class ="wrapper">
 <h1>Cập nhật admin</h1>
@@ -70,8 +69,7 @@ if(isset($_POST['submit']))
    $sql ="UPDATE tbl_admin SET
    full_name ='$full_name',
    username ='$username'
-   WHERE id='$id'
-   ";
+   WHERE id='$id'";
 
    $res =mysqli_query($conn, $sql);
 

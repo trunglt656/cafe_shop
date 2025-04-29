@@ -74,7 +74,7 @@
                                 <tr>
                                     <td><?php echo $sn++; ?>. </td>
                                     <td><?php echo $title; ?></td>
-                                    <td>₹<?php echo $price; ?></td>
+                                    <td>VND<?php echo $price; ?></td>
                                     <td>
                                        
                                     </td>

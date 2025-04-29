@@ -1,4 +1,4 @@
-    <?php include('partials-front/menu.php'); ?>
+<?php include('partials-front/menu.php'); ?>
 
 <section class="food-search text-center">
     <div class="container">
@@ -42,13 +42,13 @@
 
                         <div class="food-menu-desc">
                             <h4><?php echo $title; ?></h4>
-                            <p class="food-price">$<?php echo $price; ?></p>
+                            <p class="food-price"><?php echo $price; ?> VND</p>
                             <p class="food-detail">
                                 <?php echo $description; ?>
                             </p>
                             <br>
 
-                            <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">ORDER NOW</a>
+                            <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Đặt hàng</a>
                         </div>
                     </div>
 
