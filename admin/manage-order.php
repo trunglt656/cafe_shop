@@ -52,7 +52,7 @@
                                 $customer_name = $row['customer_name'];
                                 $customer_contact = $row['customer_contact'];
                                 $customer_email = $row['customer_email'];
-                                $table_no = $row['table_no'];
+                                $table_no = $row['customer_address'];
                                 
                                 ?>
 
