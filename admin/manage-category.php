@@ -36,7 +36,7 @@
         ?>
         <br><br>
 
-        <a href="<?php echo SITEURL; ?>admin/add-category.php" class="btn-primary">Add Category</a>
+        <a href="<?php echo SITEURL; ?>admin/add-category.php" class="btn-primary">Thêm Danh mục</a>
         <br /><br /><br />
         <table class="tbl-full">
             <tr>
